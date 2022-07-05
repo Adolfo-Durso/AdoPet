@@ -1,0 +1,19 @@
+.rodape {
+    background-color: #36D6AD;
+    width: 360px;
+    height: 104px;
+    margin-top: -2rem;
+    position: absolute;
+}
+.texto-rodape {
+    width: 243px;
+    height: 24px;
+    margin-left: 65px;
+    margin-top: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
