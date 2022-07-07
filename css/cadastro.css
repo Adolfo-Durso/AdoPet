@@ -1,0 +1,103 @@
+.cabecalho {
+    background-image: url(../img/cabecalho/Vector\ 1.png),url(../img/cabecalho/Vector\ 4.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 273.52px;
+    width: 100%;
+    height: 295px;
+    background-color: #ffffff;
+}
+.icone__casa {
+    width: 19.2px;
+    height: 23px;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+.icone__mensagem {
+    width: 23.14px;
+    height: 18.86px;
+    margin-top: 50.14px;
+    margin-left: 2.5rem; 
+ }
+ .patas-cabecalho {
+    width: 130px;
+    height: 243.41px;
+    margin-top: -13rem;
+    margin-left: 64%;
+ }
+ .logo-inicial {
+    width: 142.54px;
+    height: 34.36px;
+    margin-left: 109px;
+    margin-top: 6rem;
+}
+.corpo-cadastro {
+    background-image: url(../img/cabecalho-cadastro/Forma\ 2.png);
+    background-repeat: no-repeat;
+    background-position-y: 9.4rem;
+    background-position-x: -1.2rem;
+}
+.texto-cadastro {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #3772FF;
+    margin-top: -4.5rem;
+}
+.cadastro-email {
+    margin-top: 2rem;
+    display: block;
+}
+.requisito {
+    color: #737380;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 9.5rem;
+}
+.input {
+    width: 312px;
+    height: 40px;
+    margin-left: 24px;
+    background-color: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: 1px solid ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #BCBCBC;
+}
+.cadastro {
+    margin-top: 1rem;
+}
+#senha {
+    background-image: url(../img/cabecalho-cadastro/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 0.7rem;
+    background-position-x: 17.5rem;
+}
+.confirma {
+    margin-left: 6rem;
+}
+.botao-cadastro {
+    width: 148px;
+    height: 40px;
+    background-color: #FC7071;
+    border: 1px solid #FC7071;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8.5rem;
+}
