@@ -1,0 +1,113 @@
+.texto-mensagem {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -8.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #3772FF;
+}
+.cartao-perfil {
+    width: 312px;
+    height: 825px;
+    margin-top: 1rem;
+    margin-left: 1.7rem;
+    margin-bottom: 3rem;
+    border: 1px solid #F7F7F7;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}
+.titulo-cartao {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    color: #737380;
+}
+.dado-perfil {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3772FF; 
+    margin-top: 1rem;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.foto-perfil {
+    width: 80px;
+    height: 80px;
+    margin-left: 7rem;
+}
+.editar-foto {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 4.9rem;
+    margin-top: 3rem;
+    color: #FC7071;
+    text-decoration: underline;
+}
+.input {
+    width: 265px;
+    height: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 12px;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: 1px solid #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+}
+.input::placeholder {
+    color: #BCBCBC;
+}
+.input-sobre {
+    width: 265px;
+    height: 172px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 12px;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: 1px solid #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    font-display: block;
+    line-height: 24px;
+    color: #000;
+}
+.input-sobre::placeholder {
+    color: #BCBCBC;
+}
+.botao-salvar {
+    width: 148px;
+    height: 40px;
+    margin-left: 5.5rem;
+    background-color: #FC7071;
+    border: 1px solid #FC7071;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 1.5rem;
+    color: #fff;
+}
