@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AdoPet</title>
+        <link rel="stylesheet" href="css/_reset.css">
+        <link rel="stylesheet" href="css/cabecalho-home.css">
+        <link rel="stylesheet" href="css/corpo-mensagem.css">
+        <link rel="stylesheet" href="css/rodape.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho cabecalho_linha">
+            <a href="index.html" aria-label="Home">
+            <img src="img/cabecalho/Casa.png" alt="Home" class="icone__casa">
+            </a>
+            <a href="#" aria-label="Mensagens">
+                <img src="img/cabecalho/Mensagens.png" alt="Mensagens" class="icone__mensagem">
+            </a>
+            <div class="imagens-cabecalho">
+                <a href="perfil.html"><img src="img/home/Usuário.png" alt="Usuario none" class="usuario"></a>    
+            </div>
+        </header>
+        <main>
+            <h1 class="texto-mensagem">
+                Envie uma mensagem para <br>
+                a pessoa ou instituição que <br>
+                está cuidando do animal:
+            </h1>
+            <div class="cartao-mensagem">
+                <h2 class="dado-necessario">Nome</h2>
+                <div class="dado-nome">
+                    <input type="text" id="nome" class="input" required placeholder="Insira seu nome completo">
+                </div>
+                <h2 class="dado-necessario">Telefone</h2>
+                <div class="dado-telefone">
+                    <input type="tel" id="numero" class="input" required placeholder="Insira seu telefone e/ou whatsapp">
+                </div>
+                <h2 class="dado-necessario">Nome do animal</h2>
+                <div class="dado-nome">
+                    <input type="text" id="nome" class="input" required placeholder="Por qual animal você se interessou?">
+                </div>
+                <h2 class="dado-necessario">Mensagem</h2>
+                <div class="dado-mensagem">
+                    <textarea class="input-mensagem" required placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <div class="botao">
+                    <button class="botao-mensagem botao-entrada"><a href="#" title="#">Enviar</a></button>
+                </div>
+            </div>
+        </main>
+        <footer class="rodape">
+            <h2 class="texto-rodape">2022 - Desenvolvido por Alura</h2>
+        </footer>
+    </body>
+</html>
